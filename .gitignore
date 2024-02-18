@@ -1,0 +1,18 @@
+# Ignore directories
+.terraform/
+.idea/
+.vscode/
+
+# Ignore files
+*.tfstate
+*.tfstate.backup
+.terraform.lock.hcl
+.terraformrc
+terraform.rc
+
+# Ignore specific files
+*.sublime-project
+*.sublime-workspace
+
+# Ignore Git metadata
+.git/
